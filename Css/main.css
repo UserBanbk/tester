@@ -1,0 +1,60 @@
+@import "Grunge Bold V2";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #141414;
+  height: 1000px;
+}
+
+#Shapca {
+  width: 100%;
+  height: 100px;
+  background: #282828;
+  border-bottom: 4px solid #2c2b2c;
+}
+
+@font-face {
+    font-family: 'SecretOrigins';  /* Придумайте имя, которое будете использовать */
+    src: url('../font/SC SecretOrigins BB Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Name {
+  font-family: 'SecretOrigins', sans-serif;
+  color: #ffff;
+  font-size: 80px;
+  /* text-align: left; */
+  position: relative;
+  top: -470px;
+  left: 20px;
+}
+
+#Footer {
+  width: 100%;
+  height: 100px;
+  background: #282828;
+  border-bottom: 4px solid #2c2b2c;
+  position: relative;
+  top: 1000px;
+}
+
+#Data {
+  font-family: 'SecretOrigins', sans-serif;
+  color: #ffff;
+  font-size: 40px;
+  position: relative;
+  top: 900px;
+  left: 10px
+}
+
+#BlackDjack {
+  position: relative;
+  top: -110px;
+  left: 20px;
+  border-radius: 15px;
+}
